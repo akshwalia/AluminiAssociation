@@ -98,7 +98,7 @@ export default function DonationPage() {
             </p>
             <div className="text-center">
               <Button className="bg-red-700 text-white hover:bg-red-800 text-lg py-2 px-6">
-                <Link href={'/donate/form'}>Make a General Donation</Link>
+                <Link href={'/donate/make-donation'}>Make a General Donation</Link>
               </Button>
             </div>
           </div>
@@ -182,7 +182,9 @@ export default function DonationPage() {
               Whether big or small, your donation makes a significant impact on the lives of our students and the future of our university.
             </p>
             <Button className="bg-white text-red-700 hover:bg-gray-100 text-lg py-2 px-6">
-             <Link href={'/donate/form'}> Make Your Donation Now</Link>
+             <Link href={'/donate/make-donation'
+
+             }> Make Your Donation Now</Link>
             </Button>
           </div>
         </section>
